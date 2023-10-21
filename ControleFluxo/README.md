@@ -1,18 +1,10 @@
-## Getting Started
+## Bem vindo!
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Esse é um dos desafios realizados no curso da DIO.
 
-## Folder Structure
+## O que o código faz:
 
-The workspace contains two folders by default, where:
+- Solicita que o usuário insira os dois parâmetros via terminal.
+- Tenta chamar o método contar, que realiza a contagem e impressão dos números. Se o primeiro parâmetro for maior que o segundo, uma exceção ParametrosInvalidosException é lançada.( Se caso o segundo parâmetro for maior que o primeiro, ele Informa ao usuário que deverá inserir um numero menor que o primeiro parâmetro )
+- Se os parâmetros estiverem corretos, ele calcula o número de interações necessárias e em seguida, usa um loop for para imprimir os números incrementados.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
